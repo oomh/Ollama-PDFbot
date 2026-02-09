@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "filebot"
 version = "0.1.0"
-description = "A Simple langchain app to organize my pdfs"
+description = "A Simple Ollama + langchain app to organize my pdfs by topic"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

@@ -62,7 +62,8 @@ class PDFAnalysisPipeline:
 
         prompt_template = PromptTemplate(
             input_variables=["text"],
-            template="""Analyze the following document text and provide:
+            template="""
+            Analyze the following document text and provide:
 1. A single-word or 2-3 word topic category
 2. A brief summary in {max_length} words
 
@@ -71,7 +72,8 @@ Format your response as JSON with keys "topic" and "summary".
 Text:
 {text}
 
-JSON Response:""",
+JSON Response:
+            """,
         )
 
         try:
