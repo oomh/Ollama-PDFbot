@@ -16,13 +16,7 @@ No cloud services needed—everything runs locally on my machine. You need a loc
 ## How It Works
 
 PDF Files
-   > Extract text and metadata
-   > Analyze with local AI (Ollama)
-   > Generate topic and summary
-   > Extract key entities
-   > Organize into topic folders
-   > Generate reports
-   > Output: Organized PDFs with summaries and index
+   Extract text and metadata -> Analyze with local AI (Ollama) -> Generate topic and summary -> Extract key entities -> Organize into topic folders -> Generate reports -> Output: Organized PDFs with summaries and index
 
 ## Prerequisites
 
