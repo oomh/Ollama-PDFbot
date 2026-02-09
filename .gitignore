@@ -1,0 +1,32 @@
+# Ignore Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb
+
+# Virtual environments
+.venv/
+blackbox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+
+# Testing
+.pytest_cache/
